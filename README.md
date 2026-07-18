@@ -1,4 +1,4 @@
-#KHUJO
+#KHUJO X
 
 Khujo X v3.1 – Ultimate Full-Stack Reality Engine
 
