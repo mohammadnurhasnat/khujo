@@ -1,11 +1,24 @@
 ```markdown
 <p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/24px-Google_%22G%22_logo.svg.png" width="24"/> 
+  <b>Google AI Studio</b> &nbsp;|&nbsp; 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/24px-ChatGPT_logo.svg.png" width="24"/> 
+  <b>ChatGPT</b> &nbsp;|&nbsp; 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Claude_AI_logo.svg/24px-Claude_AI_logo.svg.png" width="24"/> 
+  <b>Claude</b> &nbsp;|&nbsp; 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/DeepSeek_logo.svg/24px-DeepSeek_logo.svg.png" width="24"/> 
+  <b>DeepSeek</b> &nbsp;|&nbsp; 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023.svg/24px-X_logo_2023.svg.png" width="24"/> 
+  <b>Grok</b> &nbsp;|&nbsp; 
+  <b>Any LLM</b> ✅
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Google%20AI%20Studio-Compatible-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google AI Studio"/>
   <img src="https://img.shields.io/badge/ChatGPT-Compatible-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT"/>
   <img src="https://img.shields.io/badge/Claude-Compatible-6E42C1?style=for-the-badge&logo=claude&logoColor=white" alt="Claude"/>
   <img src="https://img.shields.io/badge/DeepSeek-Compatible-2D6FBF?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek"/>
   <img src="https://img.shields.io/badge/Grok-Compatible-000000?style=for-the-badge&logo=x&logoColor=white" alt="Grok"/>
-  <img src="https://img.shields.io/badge/Gemini-Pro-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini"/>
   <img src="https://img.shields.io/badge/Any%20LLM-Compatible-lightgrey?style=for-the-badge" alt="Any LLM"/>
 </p>
 
@@ -53,7 +66,7 @@ Khujo X is a meticulously crafted **system prompt / instruction file** (Markdown
 
 ---
 
-## 🧩 Key Features (with Icons)
+## 🧩 Key Features
 
 - **🔬 15‑Phase Forensic Audit** — from architecture discovery to runtime simulation, nothing escapes.
 - **🕵️ Fake UI Reality Scan (Phase 15)** — every button, link, toggle, chart, and card is verified for actual functionality.
@@ -74,12 +87,12 @@ Khujo X is a plain Markdown instruction file. It works with **any LLM that accep
 
 | Platform / Model | How to Apply Khujo X |
 |------------------|----------------------|
-| <img src="https://img.icons8.com/color/24/google-logo.png"/> **Google AI Studio (Gemini)** | Open **System instructions** panel (right side) and paste the entire file. Then enter your code + trigger command. |
-| <img src="https://img.icons8.com/fluency/24/chatgpt.png"/> **ChatGPT (GPT‑4o, 4.5, o1)** | Go to **Customize ChatGPT** → paste under “What would you like ChatGPT to know about you?” or prefix your prompt. |
-| <img src="https://img.icons8.com/color/24/anthropic.png"/> **Claude (Sonnet, Opus, Haiku)** | Use the **System Prompt** field in API or Anthropic Console. |
-| <img src="https://img.icons8.com/color/24/deepseek.png"/> **DeepSeek** | Set as system message in the chat or API request. |
-| <img src="https://img.icons8.com/color/24/x.png"/> **Grok** | Paste into prompt settings (if system prompt is supported). |
-| <img src="https://img.icons8.com/ios-filled/24/generic.png"/> **Any other LLM** | Simply put it at the very beginning of your conversation as the “system” context. |
+| <img src="https://www.google.com/favicon.ico" width="16"/> **Google AI Studio (Gemini)** | Open **System instructions** panel (right side) and paste the entire file. Then enter your code + trigger command. |
+| <img src="https://openai.com/favicon.ico" width="16"/> **ChatGPT (GPT‑4o, 4.5, o1)** | Go to **Customize ChatGPT** → paste under “What would you like ChatGPT to know about you?” or prefix your prompt. |
+| <img src="https://anthropic.com/favicon.ico" width="16"/> **Claude (Sonnet, Opus, Haiku)** | Use the **System Prompt** field in API or Anthropic Console. |
+| <img src="https://deepseek.com/favicon.ico" width="16"/> **DeepSeek** | Set as system message in the chat or API request. |
+| <img src="https://x.com/favicon.ico" width="16"/> **Grok** | Paste into prompt settings (if system prompt is supported). |
+| ✅ **Any other LLM** | Simply put it at the very beginning of your conversation as the “system” context. |
 
 > ⚡ **Pro tip:** If the model has a small system prompt limit, you can split Khujo X into multiple messages or summarize the core rules — but the full file gives the best results.
 
@@ -88,31 +101,35 @@ Khujo X is a plain Markdown instruction file. It works with **any LLM that accep
 ## 🚀 Quick Start (3 Steps)
 
 ### 1️⃣ Download the skill file
-Clone this repo or just download `Khujo-X-v3.1-ultimate.md`.
+Clone this repo:  
+```bash
+git clone https://github.com/mohammadnurhasnat/Khujo.git
+```
 
-### 2️⃣ Paste into your AI tool
-Go to your favorite LLM (e.g., Google AI Studio), and paste the **entire content** as the system instruction.
+Or just download Khujo-X-v3.1-ultimate.md directly.
 
-### 3️⃣ Provide your project and launch
+2️⃣ Paste into your AI tool
+
+Go to your favorite LLM (e.g., Google AI Studio), and paste the entire content as the system instruction.
+
+3️⃣ Provide your project and launch
+
 Drop your website code (or a detailed description) into the user message, and write:
 
 ```
-
 Khujo X, perform a full audit and make everything real.
-
 ```
 
-The AI will then execute all 15 phases, return a full audit report, and provide **actionable code fixes** for every issue.
+The AI will then execute all 15 phases, return a full audit report, and provide actionable code fixes for every issue.
 
 ---
 
-## 🧪 Example Output (Real Snippet)
+🧪 Example Output (Real Snippet)
 
-After running Khujo X on a typical AI‑generated admin dashboard, you’ll see:
+After running Khujo X on a typical AI‑generated admin dashboard, you'll see:
 
 ```
-
-2. Critical & High‑Priority Findings
+### 2. Critical & High‑Priority Findings
 
 🔴 CRITICAL – Fake Login Button
 📍 Location: components/Login.tsx line 45
@@ -122,13 +139,11 @@ After running Khujo X on a typical AI‑generated admin dashboard, you’ll see:
 
 ✅ SOLUTION:
 Step‑by‑step:
-
 1. Add state for email, password, loading, error.
 2. Replace handler with async function calling POST /api/login.
 3. Show loading spinner and error message.
 
 📝 Complete Replacement Code:
-
 ```tsx
 import React, { useState } from 'react';
 import axios from 'axios';
@@ -186,7 +201,7 @@ Open an issue or submit a pull request — whether it's adding a new audit phase
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. You’re free to use, modify, and distribute it — commercially or privately — with no liability.
+This project is licensed under the **MIT License**. You're free to use, modify, and distribute it — commercially or privately — with no liability.
 
 ---
 
