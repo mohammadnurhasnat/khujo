@@ -1,7 +1,11 @@
-#KHUJO X
 
-Khujo X v3.1 – Ultimate Full-Stack Reality Engine
+```markdown
+# Khujo X v3.1 – Ultimate Full-Stack Reality Engine
 
+**Turn any AI-generated website demo into a 100% real, production-ready application.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Compatible with Google AI Studio](https://img.shields.io/badge/Compatible-Google%20AI%20Studio-blue)](https://aistudio.google.com)
 
 ## 🧠 What is Khujo X?
 
@@ -137,3 +141,6 @@ Developed by **[Your Name / Username]** with the vision of eradicating “fake U
 Inspired by the need for AI models to not just review code, but to **build real, working software**.
 
 ---
+
+**Khujo X – Because fake UI is a bug, not a feature.**
+```
